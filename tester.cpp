@@ -10,7 +10,7 @@ int main(int argc, char** argv){
 
     int* ptr = new int[x];
     ptr[0] = 25;
-    delete ptr;
+    delete ptr; 
     return 0;
 
 }
